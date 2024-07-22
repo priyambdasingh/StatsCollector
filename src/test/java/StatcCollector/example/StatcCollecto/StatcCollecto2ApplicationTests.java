@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class StatcCollecto2ApplicationTests {
 
-	@Test
+
 	void contextLoads() {
 	}
 

@@ -1,4 +1,5 @@
 package StatcCollector.example.StatcCollecto;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -10,14 +11,16 @@ public class StatsUserServiceImp implements StatsUserService {
     private StatsUserRepository Statrepo;
 
     @Override
-    public String upsert(StatsUsers stats) {
+    public String upsert(Users stats) {
         Statrepo.save(stats);
         return "Success";
 
     }
 
     @Override
-    public List<StatsUsers> getAllstats() {
+    public List<Users> getAllstats() {
         return Statrepo.findAll();
     }
 }
+
+
