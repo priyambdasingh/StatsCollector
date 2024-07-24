@@ -1,0 +1,54 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+*.log.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse specific files
+.project
+.classpath
+.settings/
+
+# Intellij IDEA specific files
+*.iml
+*.iws
+*.idea/
+
+# Spring Boot specific
+*.jar
+*.war
+*.ear
+
+# Application-specific files
+*.h2.db
+*.db
+*.sqlite
+*.sqlite3
+*.lock
+
+# Environment-specific files
+.env
+
+# Temporary files
+*.tmp
+*.swp
+
+# Dependency directories
+node_modules/
